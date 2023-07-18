@@ -145,14 +145,39 @@ background-clip: text;
 
 .Online-Games-Funny-Videos{
     text-align: center;
+  
 }
 .Online-Games-Funny-Videos img{
+    
     width:242px;
     height: 300px;
     padding: 20px;
 
 }
 .Online-Games-Funny-Videos img:hover{
-    background:rgba(0, 0, 0, 0.60)
+    filter: grayscale(80%); 
 
+}
+
+.text{
+display:flex ;  
+gap:70px;
+margin-left: 240px;
+text-align: left;
+color: #534C64;
+font-size: 15px;
+}
+
+.Play-Instantly{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin:150px;
+   
+}
+
+.side-pic{
+position:relative;
+bottom:200px;
+margin-right: 500px;
 }
