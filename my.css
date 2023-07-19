@@ -210,6 +210,7 @@ margin-right: 500px;
    
 }*/
 
+
 .i{
     background-color: white;
     border: 2px solid white;
@@ -284,7 +285,7 @@ font-weight: 100;
    }
 
 
-@media screen and (max-width:425px)
+@media screen and (max-width:682px)
 {
     .header{
        flex-direction: column;
@@ -301,7 +302,8 @@ font-weight: 100;
         flex-direction: column;
     }
     .main{
-        display: grid;
+        flex-direction: column;
+        
 
     }
 
@@ -310,21 +312,40 @@ font-weight: 100;
     }
     .goat-img img{
         width: 400px;
-        height: 350px;
+        height: 430px;
+        
+    }
+
+    .goat{
+        background-image: url('Group\ 14.png');
+        text-align: center;
+        width: 400px;
+        height: 430px;
+        padding: 5px;
+       
+
+    }
+
+    .h6{
+        text-align: left;
+        margin: 20px 100px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #534C64;
     }
     .we-are-gamer-img{
         flex-direction: column;
     }
     .we-are-gamer-img img{
-        width: 350px;
-        height: 250px;
-        margin-left: -50px;
+        width: 400px;
+        height: 430px;
+        margin-left: -70px;
     }
 
     .Play-Instantly{
         flex-direction: column;
         text-align: center;
-        margin: 5px;
+        
         align-items: center;
     }
     .goat-h1 , .we-are-gamer-h1 {
@@ -350,8 +371,8 @@ font-weight: 100;
     }
     .Play-Instantly img{
         margin-top: auto;
-        width: 300px;
-        height: 400px;
+        width: 350px;
+        height: 450px;
     }
     .side-pic img{
         width: 180px;
@@ -366,7 +387,7 @@ font-weight: 100;
         display:grid;
         grid-template-columns:repeat(3,1fr); 
         grid-template-rows:repeat(3,1fr); 
-        padding: 100px;
+        padding: 80px;
         margin-top: -200px;
         margin-left: -100px;
        
@@ -375,10 +396,9 @@ font-weight: 100;
     .i{
         background-color: white;
         border: 2px solid white;
-        
         border-radius: 50px;
-        width: 100px;
-        height: 50px;
+        width: 120px;
+        height:50px;
         align-items: center;
         color:black;
         margin-left: 10px;
@@ -392,21 +412,62 @@ font-weight: 100;
     .icon-bar p{
         font-size: 10px;
     }
-
-
-    .goat{
-        background-image: url('Group\ 14.png');
-        text-align: center;
-        width: 400px;
-        height: 410px;
-        padding: 5px;
+    .zero{
+        padding-top: 80px;
+        padding-left:80px ;
     }
-
-    .h6{
-        text-align: left;
-        margin: 20px 100px;
-        font-size: 17px;
-        font-weight: 500;
-        color: #534C64;
+    
+    .game{
+        color:white;
     }
+    .second{
+        display:grid;
+        grid-template-columns:repeat(3,1fr); 
+    padding-left:45px ;
+    align-items: flex-start;
+    gap: 20px;
+    color:white;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 100;
+    }
+    
+    .third{
+        padding:15px 20px;
+        font-size: small;
+        display:grid;
+        grid-template-columns:repeat(3,1fr); 
+        gap:10px;
+    
+    }
+    
+    .forth{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); 
+    padding-left:50px ;
+    align-items: flex-start;
+    gap: 20px;
+    color:white;
+    margin-right: 50px;
+    font-size: 10px;
+    font-weight: 100;
+    }
+    
+    .fifth{
+       
+       padding-left:50px ;
+       align-items: flex-start;
+       gap: 20px;
+       color:white;
+       margin-right: 50px;
+       font-size: 10px;
+       font-weight: 100;
+       margin-bottom: 200px;
+       }
+    
+
 }
+
+
+
+
