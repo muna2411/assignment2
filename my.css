@@ -145,8 +145,26 @@ background-clip: text;
 
 .Online-Games-Funny-Videos{
     text-align: center;
+
   
 }
+
+.images{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:170px;
+text-align: left;
+color: #534C64;
+font-size: 15px;
+font-weight: 500;
+margin-top: 0;
+}
+
+.pp{
+    margin-left: 25px;
+}
+
 .Online-Games-Funny-Videos img{
     
     width:242px;
@@ -155,24 +173,15 @@ background-clip: text;
 
 }
 .Online-Games-Funny-Videos img:hover{
-    filter: grayscale(80%); 
-
-}
-
-.text{
-display:flex ;  
-gap:70px;
-margin-left: 240px;
-text-align: left;
-color: #534C64;
-font-size: 15px;
+    filter: grayscale(100%); 
 }
 
 .Play-Instantly{
     text-align: right;
     display: flex;
     justify-content: space-between;
-    margin:150px;
+    margin: 180px ;
+   
    
 }
 
@@ -180,4 +189,119 @@ font-size: 15px;
 position:relative;
 bottom:200px;
 margin-right: 500px;
+}
+
+.icon-bar{
+    background-color:  rgba(255, 66, 165, 0.03) ;
+    
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ .icon-bar2{  
+    display:grid;
+    grid-template-columns:repeat(5,1fr); 
+    padding: 20px;
+   
+}
+
+.i,.ic,.ico,.icon,.iconb,.iconb,.iconba,.iconba,.iconbar,.ib,.icb{
+    background-color: white;
+    border:none;
+    padding:2px;
+    border-radius: 50px;
+    width: 243px;
+    height: 80px;
+    margin:20px;
+    align-items: center;
+   
+   
+}
+
+.i,.ic,.ico,.icon,.iconb,.iconb,.iconba,.iconba,.iconbar,.ib,.icb:hover{
+    width: 243px;
+    height: 80px;
+    border-color: #FF42A5;
+    color:#FF42A5;
+}
+
+.icon-bar2:hover{  
+    
+    border-color: #FF42A5;
+    color:#FF42A5;
+   
+}
+
+.footer{
+    background-color: #0B0223;
+}
+.zero{
+    padding-top: 80px;
+    padding-left:700px ;
+}
+
+.game{
+    color:white;
+}
+.second{
+display: inline-flex;
+padding-left:450px ;
+align-items: flex-start;
+gap: 60px;
+color:white;
+margin-right: 250px;
+font-size: 15px;
+font-weight: 100;
+}
+
+.third{
+
+}
+
+.forth{
+ display: inline-flex;
+padding-left:550px ;
+align-items: flex-start;
+gap: 60px;
+color:white;
+margin-right: 250px;
+font-size: 10px;
+font-weight: 100;
+}
+
+.fifth{
+    display: inline-flex;
+   padding-left:650px ;
+   align-items: flex-start;
+   gap: 60px;
+   color:white;
+   margin-right: 150px;
+   font-size: 10px;
+   font-weight: 100;
+   margin-bottom: 50px;
+   }
+
+
+@media screen and (max-width:425px)
+{
+    .header{
+       flex-direction: column;
+    }
+    .nav{
+       
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+        align-items: center ;
+    }
+    .n{
+        flex-direction: column;
+    }
+    .main{
+        display: grid;
+        grid-template-areas: "goat-img"
+                            "goat-h1"
+                            ;
+    }
 }
