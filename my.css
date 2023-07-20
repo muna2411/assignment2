@@ -412,7 +412,7 @@ font-weight: 100;
 
 
 
-@media screen and (min-width:426px) and (max-width:762px)
+@media screen and (min-width:426px) and (max-width:992px)
 {
    .header{
         flex-direction: column;
