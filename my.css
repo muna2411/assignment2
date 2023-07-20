@@ -143,10 +143,9 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
+
 .Online-Games-Funny-Videos{
     text-align: center;
-
-  
 }
 
 .images{
@@ -165,16 +164,17 @@ margin-top: 0;
     margin-left: 25px;
 }
 
-.Online-Games-Funny-Videos img{
+.images-img{
     
     width:242px;
     height: 300px;
     padding: 20px;
 
 }
-.Online-Games-Funny-Videos img:hover{
+.images-img:hover{
     filter: grayscale(100%); 
 }
+
 
 .Play-Instantly{
     text-align: right;
@@ -203,13 +203,6 @@ margin-right: 500px;
     
    
 }
- /*.icon-bar2{  
-    display:grid;
-    grid-template-columns:repeat(5,1fr); 
-    padding: 20px;
-   
-}*/
-
 
 .i{
     background-color: white;
@@ -471,3 +464,134 @@ font-weight: 100;
 
 
 
+@media screen and (min-width:682px) and (max-width:768px){
+
+    .header{
+        flex-direction: column;
+     }
+
+     .n{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .goat{
+        
+        text-align: center;
+        width: 640px;
+        height: 510px;
+        padding: 80px;
+        }
+    .we-are-gamer-img{
+        
+        flex-direction: column;
+       
+        width: 640px;
+            
+    }
+    .we-are-gamer{
+        text-align: center;
+        }
+    .images{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); 
+        margin: 5px 5px 5px 100px;
+    
+    }
+
+    .Play-Instantly{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin:0px 5px 5px 5px;
+    }
+
+    .Play-Instantly img{
+      
+        width: 400px;
+        height: 500px;
+    }
+    .side-pic img{
+        width: 200px;
+        height: 240px;
+        margin-left: 180px;
+        
+    }
+
+    .icon-bar{
+   
+      
+        display:grid;
+        grid-template-columns:repeat(3,1fr); 
+        grid-template-rows:repeat(3,1fr); 
+   
+        margin-top: -200px;
+        width:600px;
+       
+    }
+
+    .i{
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 200px;
+        height:70px;
+        align-items: center;
+        color:black;
+        margin-left: 5px;
+       
+    }
+
+    .icon-bar img{
+        width: 60px;
+        height: 60px;
+    }
+    .icon-bar p{
+        font-size: 15px;
+    }
+    .footer{
+    width:800px;
+    }
+    .zero{
+        align-items: center;
+        padding: 50px 50px 50px 50px ;
+        margin-left:280px;   
+    }
+    .second{
+           display:grid;
+           grid-template-columns:repeat(3,1fr); 
+           padding-left:120px ;
+           gap: 20px;
+           margin-right: 20px;
+           
+    }   
+    .third{
+    padding:20px 20px 20px 20px;
+    margin-left: 130px;
+    font-size: small;
+    display:grid;
+    grid-template-columns:repeat(3,1fr); 
+    gap:20px;
+    }
+    
+    .forth{
+        
+        padding:20px 20px 20px 20px;
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+        gap: 6px;    
+    }
+    
+    .fifth{
+       padding-left:200px ;
+      
+       gap: 20px;
+       color:white;
+       margin: 50px;
+       
+       margin-bottom: 200px;
+       }
+        
+}
